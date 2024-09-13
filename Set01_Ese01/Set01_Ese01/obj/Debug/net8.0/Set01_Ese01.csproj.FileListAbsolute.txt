@@ -1,0 +1,14 @@
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\bin\Debug\net8.0\Set01_Ese01.exe
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\bin\Debug\net8.0\Set01_Ese01.deps.json
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\bin\Debug\net8.0\Set01_Ese01.runtimeconfig.json
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\bin\Debug\net8.0\Set01_Ese01.dll
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\bin\Debug\net8.0\Set01_Ese01.pdb
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\obj\Debug\net8.0\Set01_Ese01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\obj\Debug\net8.0\Set01_Ese01.AssemblyInfoInputs.cache
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\obj\Debug\net8.0\Set01_Ese01.AssemblyInfo.cs
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\obj\Debug\net8.0\Set01_Ese01.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\obj\Debug\net8.0\Set01_Ese01.dll
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\obj\Debug\net8.0\refint\Set01_Ese01.dll
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\obj\Debug\net8.0\Set01_Ese01.pdb
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\obj\Debug\net8.0\Set01_Ese01.genruntimeconfig.cache
+C:\Users\Utente\Desktop\Ese_iemme\Set01_Ese01\Set01_Ese01\obj\Debug\net8.0\ref\Set01_Ese01.dll
