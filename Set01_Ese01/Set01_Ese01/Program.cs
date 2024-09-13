@@ -78,8 +78,9 @@
                                     }
                                     break;
                                 case "P":
-                                    Console.WriteLine("Calcolo della potenza dei tuoi valoro in corso...");
-                                    Console.WriteLine($"La potenza di {x} - {y} =" + (x - y));
+                                    double potenza = Math.Pow(doubleX, doubleY);
+                                    Console.WriteLine("Calcolo della potenza in corso...");
+                                    Console.WriteLine($"La potenza di {x} per {y} = {potenza}");
                                     break;
                                 case "R":
                                     double radiceX = Math.Sqrt(doubleX);

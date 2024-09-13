@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett01_Ese02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06E069F0-5427-4371-8A33-4D1C3BEEF4D4}|Sett01_Ese02\\Sett01_Ese02.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett01_ese02\\sett01_ese02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E069F0-5427-4371-8A33-4D1C3BEEF4D4}|Sett01_Ese02\\Sett01_Ese02.csproj|solutionrelative:sett01_ese02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E069F0-5427-4371-8A33-4D1C3BEEF4D4}|Sett01_Ese02\\Sett01_Ese02.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett01_ese02\\sett01_ese02\\classes\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E069F0-5427-4371-8A33-4D1C3BEEF4D4}|Sett01_Ese02\\Sett01_Ese02.csproj|solutionrelative:sett01_ese02\\classes\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Studente.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett01_Ese02\\Sett01_Ese02\\classes\\Studente.cs",
+              "RelativeDocumentMoniker": "Sett01_Ese02\\classes\\Studente.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett01_Ese02\\Sett01_Ese02\\classes\\Studente.cs",
+              "RelativeToolTip": "Sett01_Ese02\\classes\\Studente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T15:05:56.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett01_Ese02\\Sett01_Ese02\\Program.cs",
+              "RelativeDocumentMoniker": "Sett01_Ese02\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett01_Ese02\\Sett01_Ese02\\Program.cs",
+              "RelativeToolTip": "Sett01_Ese02\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowCgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T14:58:43.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
