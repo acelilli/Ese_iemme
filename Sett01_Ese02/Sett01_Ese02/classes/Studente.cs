@@ -119,10 +119,58 @@ namespace Sett01_Ese02.classes
             }
         }
 
-        //Delete
-        // Cancella per nome
+        //Delete per NOME
+        // Input utente che ricerca un nome nell'Elenco Studenti
+        // Input utente che ricerca ANCHE il cognome nella ricerca utenti
+        // SE uno studente STU CON QUEL NOME E COGNOME ESISTE ALLORA
+        // CHiede conferma se vuoi modificare studente stu
+        // Altrimenti esce
         // WIP
-        
+        public static void EliminaStudente()
+        {
+            if(ElencoStudenti.Count > 0) { 
+            Console.WriteLine("Quale studente vuoi cancellare?\nInizia digitando il nome.");
+            string? inputNome = Console.ReadLine();
+            Console.WriteLine("Digita anche il cognome:");
+            string? inputCognome = Console.ReadLine();
+            if (ElencoStudenti.Count > 0 && !string.IsNullOrEmpty(inputNome) && !string.IsNullOrEmpty(inputCognome)) 
+            { 
+                foreach (Studente stu in ElencoStudenti)
+                {
+                    if(stu.Nome == inputNome && stu.Cognome == inputCognome)
+                    {
+                        string inputConferma = null!;
+                        Console.WriteLine($"Stai per eliminare {stu.Nome} {stu.Cognome}.\nConfermi? Y/N"); 
+                        inputConferma = Console.ReadLine();
+                        switch (inputConferma.ToUpper()) 
+                        {
+                            case "Y":
+                                ElencoStudenti.Remove(stu);
+                                Console.WriteLine("Studente eliminato con successo.\nIl menù verrà riavviato.");
+                                    break;
+                                case "N":
+                                Console.WriteLine("Il menù verrà riavviato.");
+                                break;
+                            default:
+                                Console.WriteLine("Carattere non valido.\nIl menù verrà riavviato.");
+                                break;
+                        }
+                        break;
+                    } else 
+                        {
+                            Console.WriteLine("Non esistono studenti con il nome e cognome inseriti.\n");
+                        }
+                }
+            } 
+            else 
+            {
+                Console.WriteLine("I caratteri digitati non sono validi.");
+            }
+            } else
+            {
+                Console.WriteLine("Non è stato registrato nessuno studente in elenco.");
+            }
+        }
             #endregion
 
         #region FILTRI
