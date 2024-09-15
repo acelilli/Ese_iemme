@@ -125,7 +125,6 @@ namespace Sett01_Ese02.classes
         // SE uno studente STU CON QUEL NOME E COGNOME ESISTE ALLORA
         // CHiede conferma se vuoi modificare studente stu
         // Altrimenti esce
-        // WIP
         public static void EliminaStudente()
         {
             if(ElencoStudenti.Count > 0) { 
@@ -139,9 +138,10 @@ namespace Sett01_Ese02.classes
                 {
                     if(stu.Nome == inputNome && stu.Cognome == inputCognome)
                     {
-                        string inputConferma = null!;
+                        string? inputConferma;
                         Console.WriteLine($"Stai per eliminare {stu.Nome} {stu.Cognome}.\nConfermi? Y/N"); 
                         inputConferma = Console.ReadLine();
+                            if (!string.IsNullOrEmpty(inputConferma)) { 
                         switch (inputConferma.ToUpper()) 
                         {
                             case "Y":
@@ -160,6 +160,7 @@ namespace Sett01_Ese02.classes
                         {
                             Console.WriteLine("Non esistono studenti con il nome e cognome inseriti.\n");
                         }
+                        }
                 }
             } 
             else 
@@ -171,10 +172,58 @@ namespace Sett01_Ese02.classes
                 Console.WriteLine("Non è stato registrato nessuno studente in elenco.");
             }
         }
-            #endregion
+        #endregion
 
         #region FILTRI
-            // Filtro per voto minimo e massim (chiesto in due tempi)
+        // Filtro per voto minimo e massimo 
+        //public static void FiltroVoti(string? inputVotoA, string? inputVotoB)
+        //{
+        //    if (string.IsNullOrEmpty(inputVotoA) || string.IsNullOrEmpty(inputVotoB)) 
+        //    {
+        //        Console.WriteLine("ATTENZIONE! I valori inseriti non sono validi.\nIl programma verrà riavviato.");
+        //    } else
+        //    {
+        //        try 
+        //        {
+        //            double votoA = Convert.ToDouble(inputVotoA);
+        //            double votoB = Convert.ToDouble(inputVotoB);
+        //            if (ElencoStudenti.Count > 0) 
+        //            {
+        //                // lista cheandrò a popolare con gli studenti filtrati
+        //                List<Studente> studentiFiltrati = new List<Studente>();
+        //                foreach(Studente stu in ElencoStudenti)
+        //                {
+        //                    if (stu.Voto >= votoA && stu.Voto <= votoB)
+        //                    {
+        //                        studentiFiltrati.Add(stu);
+
+        //                        if (studentiFiltrati.Count > 0) {
+        //                        Console.WriteLine("Studenti filtrati per voto: ");
+        //                            studentiFiltrati.Sort();
+
+        //                        foreach (Studente fil in studentiFiltrati)
+        //                        {
+        //                            Console.WriteLine($"{fil.Voto} - {fil.Nome} {fil.Cognome}");
+        //                        }
+        //                        } else
+        //                        {
+        //                            Console.WriteLine("Non è stato possibile filtrare gli studenti.\n" +
+        //                                "Controlla che siano stati registrati degli studenti o di aver inserito dei valori validi.");
+        //                        }
+        //                    }
+        //                    else 
+        //                    {
+        //                        Console.WriteLine("Impossibile filtrare gli studenti.");
+        //                    }
+        //                }
+
+        //            }
+        //        } catch 
+        //        {
+        //            Console.WriteLine("Impossibile filtrare gli studenti.\nControlla che ci siano studenti in lista.");
+        //                };
+        //    }
+        //}
 
             // Ricerca per nome o cognome
 

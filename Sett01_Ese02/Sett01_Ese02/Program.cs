@@ -51,12 +51,17 @@ namespace Sett01_Ese02
                             try
                             {
                                 doubleVoto = Convert.ToDouble(inputVoto);
-                                Studente stu = new Studente();
-                                stu.Nome = inputNome;
-                                stu.Cognome = inputCognome;
-                                stu.Voto = doubleVoto;
-                                stu.AggiungiStudente(stu);
-                                //
+                                if(doubleVoto >= 0 && doubleVoto <= 10) 
+                                { 
+                                    Studente stu = new Studente();
+                                    stu.Nome = inputNome;
+                                    stu.Cognome = inputCognome;
+                                    stu.Voto = doubleVoto;
+                                    stu.AggiungiStudente(stu);
+                                } else
+                                {
+                                    Console.WriteLine("ATTENZIONE! Il valore del voto deve essere un valore compreso tra 0 e 10.");
+                                }
                             }
                             catch
                             {
@@ -74,7 +79,12 @@ namespace Sett01_Ese02
                         Studente.ModificaStudente();
                         break;
                         case "FI":
-
+                        // Metodo STATICO all'interno di Studente che prende come parametri due stringhe (i voti)
+                        // non funziona
+                        //Console.WriteLine("Filtra gli studenti per il valore dei voti.");
+                        //string? inputVotoA = Console.ReadLine();
+                        //string? inputVotoB = Console.ReadLine();
+                        //Studente.FiltroVoti(inputVotoA, inputVotoB);
                         break;
                         case "DEL":
                         Studente.EliminaStudente();
