@@ -12,7 +12,7 @@ namespace Sett01_Ese02
             //       Cognome
             //       Voto
             // ----- Inserimento nuovo studente in LISTA ARRAY
-            // ----- Visualuzzare tutti gli stuenti
+            // ----- Visualizzare tutti gli stuenti
             // ----- Modificare i dati di uno studente esistente
             // ----- Filtrare e isualizzare gli studenti in base ai voti
             //             -> Voto massimo e voto minimo
@@ -21,7 +21,7 @@ namespace Sett01_Ese02
 
             bool insStudente = true;
 
-            List<Studente> elencoStudenti = new List<Studente>();
+            // List<Studente> elencoStudenti = new List<Studente>();
 
             while (insStudente) {
                 Console.WriteLine("------------- GESTIONE STUDENTI ------------- ");
@@ -31,34 +31,53 @@ namespace Sett01_Ese02
                 string? inputUtente = Console.ReadLine();
                 switch (inputUtente.ToUpper()) {
                     case "INS":
+                        #region INSERIMENTO
                         Console.WriteLine("------------- Inserisci un nuovo studente -------------");
                         Console.Write("Inserisci nome: ");
-                        string inputNome = Console.ReadLine();
+                        string? inputNome = Console.ReadLine();
                         Console.Write("Inserisci cognome: ");
-                        string inputCognome = Console.ReadLine();
+                        string? inputCognome = Console.ReadLine();
                         Console.Write("Inserisci voto: ");
                         //double inputVoto = Convert.ToDouble(Console.ReadLine());
                         string? inputVoto = Console.ReadLine();
                         double doubleVoto = 0d;
-                            try {
-                            doubleVoto = Convert.ToDouble(inputVoto);
-                        } 
-                        catch 
+                        if(inputNome == ""|| inputCognome == "" || inputVoto == null) 
+                        { 
+                            
+                            Console.WriteLine("Uno o più valori inseriti non erano validi.\n" +
+                                "Il menù verrà riavviato.");
+                        } else
                         {
-                            Console.WriteLine("Valore voto non valido!");
-                                }
-                        Studente stu = new Studente();
-                        stu.Nome = inputNome;
-                        stu.Cognome = inputCognome;
-                        stu.Voto = doubleVoto;
-                        elencoStudenti.Add(stu);
-
+                            try
+                            {
+                                doubleVoto = Convert.ToDouble(inputVoto);
+                                Studente stu = new Studente();
+                                stu.Nome = inputNome;
+                                stu.Cognome = inputCognome;
+                                stu.Voto = doubleVoto;
+                                stu.AggiungiStudente(stu);
+                                //
+                            }
+                            catch
+                            {
+                                Console.WriteLine("Valore voto non valido.\n" +
+                                    "Il menù verrà riavviato.");
+                            }
+                        }
+                        #endregion
                         break;
                         case "LI":
+                        Studente.StampaElenco();
+                        // metodo STATICO all'interno di Studente
                         break;
                         case "MOD":
+                        Studente.ModificaStudente();
+                        break;
+                        case "FI":
+
                         break;
                         case "DEL":
+                        Studente.EliminaStudente();
                         break;
                     case "Q":
                         Console.WriteLine("Il programma verrà chiuso.");
