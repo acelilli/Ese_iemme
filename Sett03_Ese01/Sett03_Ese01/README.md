@@ -70,4 +70,8 @@ INSERT INTO Prestito (data_prestito, data_ritorno, utenteRIF, libroRIF) VALUES
 ('2024-03-05', '2024-03-15', 9, 9),
 ('2024-03-10', '2024-03-20', 10, 10);
 
+INSERT INTO Prestito (data_prestito, data_ritorno, utenteRIF, libroRIF) VALUES
+('2024-02-05', '2024-02-15', 5, 8),
+('2024-02-05', '2024-02-15', 5, 9);
+
 SELECT * FROM Prestito;

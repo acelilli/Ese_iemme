@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
   <diagram name="Pagina-1" id="hVnC4XfOqoPB96STK4v9">
-    <mxGraphModel dx="1690" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1863" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -209,11 +209,20 @@
         <mxCell id="nJrMl64BiXKIPBicfdOv-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nJrMl64BiXKIPBicfdOv-2" target="nJrMl64BiXKIPBicfdOv-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nJrMl64BiXKIPBicfdOv-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nJrMl64BiXKIPBicfdOv-95" target="nJrMl64BiXKIPBicfdOv-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nJrMl64BiXKIPBicfdOv-95" value="Utente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="820" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="nJrMl64BiXKIPBicfdOv-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nJrMl64BiXKIPBicfdOv-96" target="nJrMl64BiXKIPBicfdOv-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nJrMl64BiXKIPBicfdOv-96" value="Prestito" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="820" width="120" height="20" as="geometry" />
+          <mxGeometry x="330" y="840" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nJrMl64BiXKIPBicfdOv-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nJrMl64BiXKIPBicfdOv-97" target="nJrMl64BiXKIPBicfdOv-106">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nJrMl64BiXKIPBicfdOv-97" value="Libro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="820" width="120" height="20" as="geometry" />
@@ -222,7 +231,7 @@
           <mxGeometry x="40" y="840" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nJrMl64BiXKIPBicfdOv-99" value="- ID : int&lt;div&gt;- CodUnivoco : string&lt;/div&gt;&lt;div&gt;- DataPrestito&lt;span style=&quot;background-color: initial;&quot;&gt;: date&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- DataRitorno: date&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- UtenteRif&lt;span style=&quot;background-color: initial;&quot;&gt;: int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- LibroRif : int&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="340" y="840" width="120" height="90" as="geometry" />
+          <mxGeometry x="330" y="860" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nJrMl64BiXKIPBicfdOv-100" value="- ID : int&lt;div&gt;- CodUnivoco : string&lt;/div&gt;&lt;div&gt;- Titolo : string&lt;/div&gt;&lt;div&gt;- Autore :string&lt;/div&gt;&lt;div&gt;- Anno: int&lt;/div&gt;&lt;div&gt;-Disponib. : bool&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="570" y="840" width="120" height="90" as="geometry" />
@@ -231,10 +240,16 @@
           <mxGeometry x="40" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nJrMl64BiXKIPBicfdOv-102" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nJrMl64BiXKIPBicfdOv-103" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nJrMl64BiXKIPBicfdOv-105" value="Gestore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nJrMl64BiXKIPBicfdOv-106" value="+ CRUD Utenti&lt;div&gt;+ CRUD Libri&lt;/div&gt;&lt;div&gt;+ CRUD Prestito&lt;/div&gt;&lt;div&gt;+ Stampa&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
