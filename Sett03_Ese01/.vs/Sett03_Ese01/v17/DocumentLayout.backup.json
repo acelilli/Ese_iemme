@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett03_ese01\\sett03_ese01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|solutionrelative:sett03_ese01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett03_ese01\\sett03_ese01\\models\\taskprestitolibricontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|solutionrelative:sett03_ese01\\models\\taskprestitolibricontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett03_ese01\\sett03_ese01\\models\\gestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|solutionrelative:sett03_ese01\\models\\gestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett03_ese01\\sett03_ese01\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|solutionrelative:sett03_ese01\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett03_ese01\\sett03_ese01\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|solutionrelative:sett03_ese01\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett03_ese01\\sett03_ese01\\models\\prestito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893EF8A9-F933-48BE-A998-113AB48C7BB5}|Sett03_Ese01\\Sett03_Ese01.csproj|solutionrelative:sett03_ese01\\models\\prestito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Gestore.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\Gestore.cs",
+              "RelativeDocumentMoniker": "Sett03_Ese01\\Models\\Gestore.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\Gestore.cs",
+              "RelativeToolTip": "Sett03_Ese01\\Models\\Gestore.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:24:13.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utente.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\Utente.cs",
+              "RelativeDocumentMoniker": "Sett03_Ese01\\Models\\Utente.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\Utente.cs",
+              "RelativeToolTip": "Sett03_Ese01\\Models\\Utente.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:37:16.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "Sett03_Ese01\\Models\\Libro.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\Libro.cs",
+              "RelativeToolTip": "Sett03_Ese01\\Models\\Libro.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:46:37.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Prestito.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\Prestito.cs",
+              "RelativeDocumentMoniker": "Sett03_Ese01\\Models\\Prestito.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\Prestito.cs",
+              "RelativeToolTip": "Sett03_Ese01\\Models\\Prestito.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T09:39:23.024Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +96,22 @@
               "RelativeDocumentMoniker": "Sett03_Ese01\\Program.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Program.cs",
               "RelativeToolTip": "Sett03_Ese01\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T07:17:52.977Z",
+              "WhenOpened": "2024-09-27T09:33:27.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskPrestitoLibriContext.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\TaskPrestitoLibriContext.cs",
+              "RelativeDocumentMoniker": "Sett03_Ese01\\Models\\TaskPrestitoLibriContext.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett03_Ese01\\Sett03_Ese01\\Models\\TaskPrestitoLibriContext.cs",
+              "RelativeToolTip": "Sett03_Ese01\\Models\\TaskPrestitoLibriContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T08:39:57.212Z",
               "EditorCaption": ""
             }
           ]

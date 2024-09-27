@@ -18,4 +18,9 @@ public partial class Libro
     public bool Disponinile { get; set; }
 
     public virtual ICollection<Prestito> Prestitos { get; set; } = new List<Prestito>();
+
+    public override string ToString()
+    {
+        return $"[LIBRO] {CodiceUni} - {Titolo}, {Autore}, anno: {Anno}.";
+    }
 }

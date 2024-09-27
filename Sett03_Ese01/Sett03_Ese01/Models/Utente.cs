@@ -16,4 +16,9 @@ public partial class Utente
     public string Email { get; set; } = null!;
 
     public virtual ICollection<Prestito> Prestitos { get; set; } = new List<Prestito>();
+
+    public override string ToString()
+    {
+        return $"[UTENTE] {CodiceUni} - {Nome} {Cognome}, contatto: {Email}."; ;
+    }
 }
