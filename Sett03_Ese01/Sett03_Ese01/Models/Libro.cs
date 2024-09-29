@@ -21,6 +21,11 @@ public partial class Libro
 
     public override string ToString()
     {
-        return $"[LIBRO] {CodiceUni} - {Titolo}, {Autore}, anno: {Anno}.";
+        return $"{LibroId}. [LIBRO] {CodiceUni} - {Titolo}, {Autore}, anno: {Anno}.";
+    }
+
+    public string StampaDettaglio()
+    {
+        return $"Codice libro: {CodiceUni} - {Titolo}, {Autore}, anno: {Anno}.";
     }
 }

@@ -19,6 +19,11 @@ public partial class Utente
 
     public override string ToString()
     {
-        return $"[UTENTE] {CodiceUni} - {Nome} {Cognome}, contatto: {Email}."; ;
+        return $"{UtenteId}. [UTENTE] {CodiceUni} - {Nome} {Cognome}, contatto: {Email}."; ;
+    }
+
+    public string StampaDettaglio()
+    {
+        return $"{Nome} {Cognome}, contatto: {Email}."; ;
     }
 }

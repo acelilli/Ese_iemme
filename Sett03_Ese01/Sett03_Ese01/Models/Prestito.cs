@@ -24,6 +24,6 @@ public partial class Prestito
     public override string ToString()
     {
         return $"{PrestitoId}.[PRESTITO] - {CodiceUni} Data prestito: {DataPrestito}, Data Ritorno: {DataRitorno}\n" +
-               $"{LibroRifNavigation?.ToString()} preso in prestito da {UtenteRifNavigation?.ToString()}";
+               $"{LibroRifNavigation?.StampaDettaglio()} preso in prestito da {UtenteRifNavigation?.StampaDettaglio()}";
     }
 }
