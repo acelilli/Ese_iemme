@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sett03_Ese01.Models.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -9,8 +10,20 @@ namespace Sett03_Ese01.Models
 {
     class Gestore
     {
+        #region SINGLETON
+        private static Gestore? instance;
+        public static Gestore? GetInstance() 
+        { 
+            if(instance == null)
+                instance = new Gestore();
+            return instance; 
+        }
+
+        private Gestore() { }
+        #endregion
+
         #region CREATE
-       
+
         /// <summary>
         /// Aggiunge un nuovo libro al db
         /// </summary>
@@ -31,22 +44,25 @@ namespace Sett03_Ese01.Models
                                 Disponinile = dispo
                             };
 
-            using (var ctx = new TaskPrestitoLibriContext())
-            {
+            //using (var ctx = new TaskPrestitoLibriContext())
+            //{
                 
-                try
-                {
-                    ctx.Libros.Add(lib);
-                    ctx.SaveChanges();
-                    inserimento = true;
+            //    try
+            //    {
+            //        ctx.Libros.Add(lib);
+            //        ctx.SaveChanges();
+            //        inserimento = true;
 
-                    Console.WriteLine("Inserimento del libro effettuato con successo");
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-            }
+            //        Console.WriteLine("Inserimento del libro effettuato con successo");
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        Console.WriteLine(ex.Message);
+            //    }
+            //}
+
+            // lo rifaccio tramite l'istanza del LibroDao!!! senzabisogno di using
+            // LibroDao.GetInstance().Insert(lib);
 
             return inserimento;
         }
@@ -117,6 +133,7 @@ namespace Sett03_Ese01.Models
             {
                 Libro? lib = ctx.Libros.FirstOrDefault(l => l.LibroId.Equals(libroId));
                 Utente? ut = ctx.Utentes.FirstOrDefault(u=> u.UtenteId.Equals(utenteId));
+
                 if (lib == null && ut == null)
                 {
                     Console.WriteLine("Il libro o l'utente selezionato non esiste.\n" +
@@ -147,6 +164,7 @@ namespace Sett03_Ese01.Models
 
         #endregion
         #region READ
+        // DA SPOSTARE dei reciproci DAO
         /// <summary>
         /// Stampa di tutti i prestiti nel db (stampa anche i libri e gli utenti a cui si fa riferimento)
         /// </summary>
@@ -174,6 +192,12 @@ namespace Sett03_Ese01.Models
         {
             using (var ctx = new TaskPrestitoLibriContext())
             {
+                //Utente? ute = UtenteDao.GetInstance().GetByodice(varCodUtente)
+                // poi devo fare in prestitoDao un metodo che mi va a prendere tutti i prestiti legati a un id utente
+                // poi farò, se utente non è null, a richiamare il PrestitoDao
+                // ute.Prestutis = PrestitoDao.GetInstance().PrestitoByUtente(int utenteId)
+                // cioè NON vado a richiamare direttamente la tabella dei prestiti e faccio la lista (come qui)
+                // vado a richiamare il PRESTITODAO che avrà un metodo specializzato
                 var elencoPres = ctx.Prestitos.ToList();
                 var risultato = from pres in elencoPres
                                 where pres.UtenteRif == userid
@@ -187,21 +211,22 @@ namespace Sett03_Ese01.Models
             }
         }
 
+        // Spostato nel LibroDAO
         /// <summary>
         /// Stampa di tutti i libri presenti nel db
         /// </summary>
-        public static void StampaTuttiLibri()
-        {
-            using (var ctx = new TaskPrestitoLibriContext())
-            {
-                var tuttLibri = ctx.Libros.ToList();
+        //public static void StampaTuttiLibri()
+        //{
+        //    using (var ctx = new TaskPrestitoLibriContext())
+        //    {
+        //        var tuttLibri = ctx.Libros.ToList();
 
-                foreach (var lib in tuttLibri)
-                {
-                    Console.WriteLine(lib);
-                }
-            }
-        }
+        //        foreach (var lib in tuttLibri)
+        //        {
+        //            Console.WriteLine(lib);
+        //        }
+        //    }
+        //}
 
         /// <summary>
         /// Stampa tutti i libri che sono disponibili
@@ -264,14 +289,15 @@ namespace Sett03_Ese01.Models
             }
         }
 
-        public static void StampaLibroPerId(int libroId)
-        {
-            using (var ctx = new TaskPrestitoLibriContext())
-            {
-                Libro? lib = ctx.Libros.FirstOrDefault(l => l.LibroId.Equals(libroId));
-                Console.WriteLine(lib);
-            }
-        }
+        // Spostato nel LibroDAO
+        //public static void StampaLibroPerId(int libroId)
+        //{
+        //    using (var ctx = new TaskPrestitoLibriContext())
+        //    {
+        //        Libro? lib = ctx.Libros.FirstOrDefault(l => l.LibroId.Equals(libroId));
+        //        Console.WriteLine(lib);
+        //    }
+        //}
 
         public static void StampaPrestitoPerId(int prestitoId)
         {

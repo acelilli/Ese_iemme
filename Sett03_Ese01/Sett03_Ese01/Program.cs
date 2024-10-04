@@ -14,10 +14,12 @@ namespace Sett03_Ese01
             // X -> CREATE per Libri
             // X -> CREATE per Utenti
             // X -> CREATE per Prestito
+
             //-----------------------
             // X -> READ per Libri
             // X -> READ per Utenti
             // X -> READ per Prestiti
+
             //----------------------------------
             // X -> UPDATE per Utenti
             // X -> UPDATE per Libri
@@ -156,8 +158,8 @@ namespace Sett03_Ese01
             //Gestore.StampaLibDispo();
             //Console.WriteLine("Inserisci il numero di indice del libro che vuoi associare al prestito:");
             //int libroId = Convert.ToInt32(Console.ReadLine());
-            
-            
+
+
             //// Fase 4: aggiornare la data di restituzione del libro
             //Console.WriteLine("Procedura di modifica iniziata.\n" +
             //    "Inserisci la data di restituizione del libro aggiornata:");
@@ -172,6 +174,8 @@ namespace Sett03_Ese01
 
             #region elimina Libro
             #endregion
+
+            //Gestore.AggiungiLibro(parametri);
         }
     }
 }
