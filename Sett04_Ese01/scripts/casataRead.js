@@ -81,4 +81,40 @@ function salvaCas(varBtn){
     }
 }
 
+// Contatore delle bacchette per ciascuna casata
+function bacchettaPerCasata(){
+
+    //carico le bacchette dal local storage
+    let elencoLocalB = localStorage.getItem("bacchette") != null ? JSON.parse(localStorage.getItem("bacchette")) : [];
+
+    //Carico le casate dal local storage
+    let elencoLocalC = localStorage.getItem("casata") != null 
+                            ? JSON.parse(localStorage.getItem("casata")) : [];
+
+    // Per ciascuna bacchetta controllo a quale casata appartengono e aggiorno item.numBa
+    let contatoreBacchette = {}
+    
+// Contiamo le bacchette per ogni casata
+elencoLocalB.forEach(bacchetta => {
+    let casata = bacchetta.casata; 
+    if (contatoreBacchette[casata]) {
+        contatoreBacchette[casata]++;
+    } else {
+        contatoreBacchette[casata] = 1;
+    }
+});
+
+// Aggiorniamo gli oggetti delle casate nel local storage
+elencoLocalC.forEach(casata => {
+    casata.numBa = contatoreBacchette[casata.nome] || 0; 
+});
+
+// Modifica le casate nel local storage
+localStorage.setItem("casata", JSON.stringify(elencoLocalC));
 stampaTabella();
+}
+
+
+stampaTabella();
+
+bacchettaPerCasata()

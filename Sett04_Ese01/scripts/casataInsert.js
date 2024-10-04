@@ -11,7 +11,7 @@ let elencoLocal = localStorage.getItem("casata") != null ? JSON.parse(localStora
 let varNome = document.getElementById("input-nome").value;
 let varDesc = document.getElementById("input-des").value;
 let varLogo = document.getElementById("input-logo").value;
-let varBac = 0;
+let varBac;
 
 
 let cas = {
