@@ -16,7 +16,7 @@ function stampaTabella(){
                 </td>
                 <td>${item.numBa}</td>
                 <td>
-                    <button type="button" class="btn btn-danger" onclick="elimina(${i})">Elimina</button>
+                    <button type="button" class="btn btn-elimina" onclick="elimina(${i})">Elimina</button>
                     <button type="button" class="btn btn-warning" onclick="modifica(${i})">Modifica</button>
                 </td>
             </tr>
