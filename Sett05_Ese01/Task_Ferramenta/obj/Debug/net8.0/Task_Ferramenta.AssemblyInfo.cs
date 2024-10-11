@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Task_Ferramenta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f5bcf8309d93810e350229d6bd8942cb8152994")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd624fa0b01b38b2e20baa24e0cc2418aa96e1bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Task_Ferramenta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Task_Ferramenta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
