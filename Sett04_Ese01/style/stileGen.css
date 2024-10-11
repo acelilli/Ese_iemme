@@ -13,8 +13,8 @@ a {
     font-weight: 500;
     color: #52462a;
     text-decoration: none;
-    display: inline-block; /* Assicurati che l'elemento sia inline-block */
-    transition: transform 0.2s, color 0.2s; /* Aggiunto anche il colore */
+    display: inline-block; 
+    transition: transform 0.2s, color 0.2s; 
 }
 
 a:hover {

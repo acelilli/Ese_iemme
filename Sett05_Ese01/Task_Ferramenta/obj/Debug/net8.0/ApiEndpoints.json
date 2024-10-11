@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "Task_Ferramenta.Controllers.ProdottoController",
+    "Method": "CercaPerCodice",
+    "RelativePath": "api/prodotto/{varCod}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCod",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Task_Ferramenta.Models.ProdottoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Task_Ferramenta.Controllers.RepartoController",
+    "Method": "CercaPerCodice",
+    "RelativePath": "api/reparto/{varCod}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCod",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Task_Ferramenta.Models.RepartoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

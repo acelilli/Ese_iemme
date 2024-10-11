@@ -93,13 +93,19 @@ function bacchettaPerCasata(){
 
     // Per ciascuna bacchetta controllo a quale casata appartengono e aggiorno item.numBa
     let contatoreBacchette = {}
+    // grifondoro = 1++
     
 // Contiamo le bacchette per ogni casata
 elencoLocalB.forEach(bacchetta => {
+    // per ciascuna bacchetta dentro all'elenco bacchette in LocalStorage
     let casata = bacchetta.casata; 
+    // crea una variabile in cui casata è uguale a bacchetta.casata
+    // se la casata esiste già nell'oggetto contatoreBacchette
     if (contatoreBacchette[casata]) {
+        // allora faccio casata++
         contatoreBacchette[casata]++;
     } else {
+        // altrimenti sarà = 1
         contatoreBacchette[casata] = 1;
     }
 });

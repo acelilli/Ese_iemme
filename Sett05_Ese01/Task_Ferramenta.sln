@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_Ferramenta", "Task_Ferramenta\Task_Ferramenta.csproj", "{B78826B4-AD1D-427F-9930-9FDC83F8625C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B78826B4-AD1D-427F-9930-9FDC83F8625C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78826B4-AD1D-427F-9930-9FDC83F8625C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78826B4-AD1D-427F-9930-9FDC83F8625C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78826B4-AD1D-427F-9930-9FDC83F8625C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD94801D-154B-48A7-B75C-87E7AAB57650}
+	EndGlobalSection
+EndGlobal
