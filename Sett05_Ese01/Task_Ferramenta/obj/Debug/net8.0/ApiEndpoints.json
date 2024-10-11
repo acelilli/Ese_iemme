@@ -26,6 +26,42 @@
     ]
   },
   {
+    "ContainingType": "Task_Ferramenta.Controllers.ProdottoController",
+    "Method": "ElencoProdotti",
+    "RelativePath": "api/prodotto/tutti",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Task_Ferramenta.Models.ProdottoDTO, Task_Ferramenta, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Task_Ferramenta.Controllers.RepartoController",
+    "Method": "InserisciReparto",
+    "RelativePath": "api/reparto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "repDTO",
+        "Type": "Task_Ferramenta.Models.RepartoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Task_Ferramenta.Controllers.RepartoController",
     "Method": "CercaPerCodice",
     "RelativePath": "api/reparto/{varCod}",
@@ -50,6 +86,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Task_Ferramenta.Controllers.RepartoController",
+    "Method": "EliminaReparto",
+    "RelativePath": "api/reparto/{varCodice}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Task_Ferramenta.Controllers.RepartoController",

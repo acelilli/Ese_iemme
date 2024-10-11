@@ -12,9 +12,9 @@ namespace Task_Ferramenta.Models
 	        fila VARCHAR(10) NOT NULL,
          */
         public int RepartoID { get; set; }
-        public string RepartoCOD { get; set; }
-        public string Nome { get; set; }
-        public string Fila { get; set; }
+        public string RepartoCOD { get; set; } = null!;
+        public string? Nome { get; set; }
+        public string? Fila { get; set; }
 
     }
 }

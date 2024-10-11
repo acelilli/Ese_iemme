@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett05_ese01\\task_ferramenta\\models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|solutionrelative:task_ferramenta\\models\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett05_ese01\\task_ferramenta\\controllers\\repartocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|solutionrelative:task_ferramenta\\controllers\\repartocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|solutionrelative:task_ferramenta\\services\\repartoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett05_ese01\\task_ferramenta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|solutionrelative:task_ferramenta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett05_ese01\\task_ferramenta\\repos\\repartorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|solutionrelative:task_ferramenta\\repos\\repartorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett05_ese01\\task_ferramenta\\services\\prodottoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|solutionrelative:task_ferramenta\\services\\prodottoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett05_ese01\\task_ferramenta\\repos\\irepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|solutionrelative:task_ferramenta\\repos\\irepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett05_ese01\\task_ferramenta\\models\\repartodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|solutionrelative:task_ferramenta\\models\\repartodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett05_ese01\\task_ferramenta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B78826B4-AD1D-427F-9930-9FDC83F8625C}|Task_Ferramenta\\Task_Ferramenta.csproj|solutionrelative:task_ferramenta\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Prodotto.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Models\\Prodotto.cs",
-              "RelativeDocumentMoniker": "Task_Ferramenta\\Models\\Prodotto.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Models\\Prodotto.cs",
-              "RelativeToolTip": "Task_Ferramenta\\Models\\Prodotto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RepartoRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Repos\\RepartoRepo.cs",
+              "RelativeDocumentMoniker": "Task_Ferramenta\\Repos\\RepartoRepo.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Repos\\RepartoRepo.cs",
+              "RelativeToolTip": "Task_Ferramenta\\Repos\\RepartoRepo.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAawDoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T10:43:53.073Z",
+              "WhenOpened": "2024-10-11T12:27:18.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RepartoController.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Controllers\\RepartoController.cs",
               "RelativeDocumentMoniker": "Task_Ferramenta\\Controllers\\RepartoController.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Controllers\\RepartoController.cs",
               "RelativeToolTip": "Task_Ferramenta\\Controllers\\RepartoController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAApwD8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T09:11:58.877Z",
+              "WhenOpened": "2024-10-11T12:48:23.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RepartoServices.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Services\\RepartoServices.cs",
               "RelativeDocumentMoniker": "Task_Ferramenta\\Services\\RepartoServices.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Services\\RepartoServices.cs",
               "RelativeToolTip": "Task_Ferramenta\\Services\\RepartoServices.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAC8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAlwCIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:20:17.269Z",
+              "WhenOpened": "2024-10-11T12:32:46.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "IRepos.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Repos\\IRepos.cs",
+              "RelativeDocumentMoniker": "Task_Ferramenta\\Repos\\IRepos.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Repos\\IRepos.cs",
+              "RelativeToolTip": "Task_Ferramenta\\Repos\\IRepos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T13:50:06.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepartoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Models\\RepartoDTO.cs",
+              "RelativeDocumentMoniker": "Task_Ferramenta\\Models\\RepartoDTO.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Models\\RepartoDTO.cs",
+              "RelativeToolTip": "Task_Ferramenta\\Models\\RepartoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T12:59:46.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\appsettings.json",
               "RelativeDocumentMoniker": "Task_Ferramenta\\appsettings.json",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\appsettings.json",
               "RelativeToolTip": "Task_Ferramenta\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-11T09:00:10.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdottoServices.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Services\\ProdottoServices.cs",
-              "RelativeDocumentMoniker": "Task_Ferramenta\\Services\\ProdottoServices.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett05_Ese01\\Task_Ferramenta\\Services\\ProdottoServices.cs",
-              "RelativeToolTip": "Task_Ferramenta\\Services\\ProdottoServices.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:20:23.442Z"
+              "WhenOpened": "2024-10-11T13:18:11.871Z"
             }
           ]
         }

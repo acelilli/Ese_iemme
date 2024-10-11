@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Task_Ferramenta.Models;
 using Task_Ferramenta.Services;
 
@@ -32,6 +33,32 @@ namespace Task_Ferramenta.Controllers
 
             if (reparti is not null)
                 return Ok(reparti);
+
+            return NotFound();
+        }
+
+        [HttpPost]
+        public IActionResult InserisciReparto(RepartoDTO repDTO) 
+        {
+            if((repDTO.Nom.IsNullOrEmpty()) || (repDTO.Fil.IsNullOrEmpty()))
+                return BadRequest();
+
+            if (_service.InserisciReparto(repDTO))
+                return Ok();
+
+            return BadRequest();
+        }
+
+        [HttpDelete("{varCodice}")]
+        public IActionResult EliminaReparto(string varCodice) 
+        {
+            if(string.IsNullOrWhiteSpace(varCodice))
+                return BadRequest();
+
+            RepartoDTO? daCancellare = _service.Cerca(varCodice);
+
+            if(daCancellare is not null)
+                return Ok();
 
             return NotFound();
         }

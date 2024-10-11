@@ -5,7 +5,7 @@ namespace Task_Ferramenta.Repos
     public class ProdottoRepo : IRepos<Prodotto>
     {
         private readonly FerramentaContext _context;
-        public ProdottoRepo(FerramentaContext context) 
+        public ProdottoRepo(FerramentaContext context)
         {
             _context = context;
         }
@@ -16,6 +16,7 @@ namespace Task_Ferramenta.Repos
             {
                 _context.Prodotto.Add(entity);
                 _context.SaveChanges();
+                risultato |= true;
             }
             catch (Exception ex)
             {
@@ -25,7 +26,7 @@ namespace Task_Ferramenta.Repos
             return risultato;
         }
 
-        public bool Delete(Prodotto entity)
+        public bool Delete(int id)
         {
             throw new NotImplementedException();
         }
@@ -34,6 +35,7 @@ namespace Task_Ferramenta.Repos
         {
             return _context.Prodotto.Find(id);
         }
+
         public Prodotto? GetByCodice(string codice)
         {
             return _context.Prodotto.FirstOrDefault(p => p.CodiceBarre == codice);
