@@ -1,0 +1,6 @@
+@API_VacanGio_HostAddress = http://localhost:5051
+
+GET {{API_VacanGio_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
