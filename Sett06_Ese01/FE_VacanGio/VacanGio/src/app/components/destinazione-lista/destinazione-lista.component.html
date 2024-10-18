@@ -1,0 +1,22 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Descrizione</th>
+            <th>Paese</th>
+            <th>Img</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dest of elencoDestinazioni">
+            <td>{{ dest.codDes }}</td>
+            <td>{{ dest.descrizione }}</td>
+            <td>{{ dest.paese }}</td>
+            <td><img src="{{ dest.img }}"></td>
+            <td>
+                <button type="button" class="btn btn-danger">X</button>
+                <a class="btn btn-warning">M</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

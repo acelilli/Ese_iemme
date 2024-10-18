@@ -54,8 +54,7 @@
               "RelativeToolTip": "API_VacanGio\\Models\\Destinazione.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:13:54.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T13:13:54.536Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "API_VacanGio\\Controllers\\DestinazioneController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:58:37.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:58:37.762Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "API_VacanGio\\Models\\DestinazioneDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:51:37.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:51:37.813Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "API_VacanGio\\Services\\IServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:39:31.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:39:31.891Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "API_VacanGio\\Services\\DestinazioneServices.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwBwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:38:55.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:38:55.486Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "API_VacanGio\\Program.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:31:56.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:31:56.925Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "API_VacanGio\\Repositories\\RecensioneRepo.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:23:14.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:23:14.957Z"
             }
           ]
         }
