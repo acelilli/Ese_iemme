@@ -12,13 +12,18 @@ namespace API_VacanGio.Services
         {
             _repository = repo;
         }
+
+        private DestinazioneServices() { }
+
+        /* Inizio crud*/
         public bool Aggiorna(DestinazioneDTO entity)
         {
             bool risultato = false;
 
-            if(entity.CodDes is not null) 
+            if(entity is not null && !string.IsNullOrWhiteSpace(entity.CodDes)) 
             {
-                Destinazione? des = _repository.GetByCodice(entity.CodDes);
+                var des = _repository.GetByCodice(entity.CodDes);
+                //Destinazione? des = _repository.GetByCodice(entity.CodDes);
                 if (des != null && entity.Nom is not null && entity.Nom is not null) 
                 {
                     des.CodiceDes = entity.CodDes is not null ? entity.CodDes : des.CodiceDes;
@@ -27,7 +32,7 @@ namespace API_VacanGio.Services
                     des.Paese = entity.Pae is not null ? entity.Pae : des.Paese;
                     des.ImgURL = entity.ImU is not null ? entity.ImU : des.ImgURL;
 
-                    risultato = true;
+                    risultato = _repository.Update(des);
                 }
             }
 

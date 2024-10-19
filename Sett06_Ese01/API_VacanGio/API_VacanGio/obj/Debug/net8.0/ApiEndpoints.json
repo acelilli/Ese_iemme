@@ -21,6 +21,53 @@
   },
   {
     "ContainingType": "API_VacanGio.Controllers.DestinazioneController",
+    "Method": "DettaglioDestinazione",
+    "RelativePath": "api/destinazioni/{varCodice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_VacanGio.Models.DestinazioneDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_VacanGio.Controllers.DestinazioneController",
+    "Method": "ModificaDestinazione",
+    "RelativePath": "api/destinazioni/{varCodice}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "destDTO",
+        "Type": "API_VacanGio.Models.DestinazioneDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_VacanGio.Controllers.DestinazioneController",
     "Method": "Inserisci",
     "RelativePath": "api/destinazioni/inserisci",
     "HttpMethod": "POST",

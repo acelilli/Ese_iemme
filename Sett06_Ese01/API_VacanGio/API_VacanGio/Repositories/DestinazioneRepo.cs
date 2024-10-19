@@ -60,6 +60,11 @@ namespace API_VacanGio.Repositories
         public bool Update(Destinazione entity)
         {
             bool risultato = false;
+            Destinazione? dest = _context.Destinazioni.FirstOrDefault(d => d.CodiceDes == entity.CodiceDes);
+            if(dest is null)
+            {
+                return risultato;
+            }
             try
             {
                 _context.Destinazioni.Update(entity);

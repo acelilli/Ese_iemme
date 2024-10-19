@@ -22,8 +22,19 @@ namespace API_VacanGio.Controllers
             return Ok(_service.CercaTutti());
         }
 
+        [HttpGet("{varCodice}")]
+        public ActionResult<DestinazioneDTO?> DettaglioDestinazione(string varCodice)
+        {
+            if (string.IsNullOrWhiteSpace(varCodice))
+                return BadRequest();
 
-        //se c'è un errore nella insert potrebbe essere qui
+            DestinazioneDTO? risultato = _service.CercaPerCodice(varCodice);
+            if (risultato is not null)
+                return Ok(risultato);
+
+            return NotFound();
+        }
+
         [HttpPost]
         [Route("inserisci")]
         public IActionResult Inserisci(DestinazioneDTO destDTO)
@@ -34,5 +45,23 @@ namespace API_VacanGio.Controllers
                 return Ok();
             return BadRequest(destDTO);
         }
-    }
+
+
+        [HttpPut("{varCodice}")]
+        public IActionResult ModificaDestinazione(string varCodice, DestinazioneDTO destDTO)
+        {
+            if (string.IsNullOrWhiteSpace(varCodice) ||
+                 string.IsNullOrWhiteSpace(destDTO.Nom) ||
+                 string.IsNullOrWhiteSpace(destDTO.Pae)||
+                 string.IsNullOrWhiteSpace(destDTO.ImU))
+                return BadRequest();
+
+            destDTO.CodDes = varCodice;
+
+            if (_service.Aggiorna(destDTO))
+                return Ok();
+
+            return BadRequest();
+        }
+     }
 }
