@@ -9,39 +9,31 @@ export class DestinazioneRepo {
 
     private endpoint : string = "http://localhost:5051/api/destinazioni";
 
-    private elenco: Destinazione[] =  [];
+    private elencoDestinazioni: Destinazione[] =  [];
 
     constructor() {
     }
 
     GetAll(): Destinazione[] {
-        return this.elenco;
+
+        fetch(this.endpoint, {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+            data.forEach((element: Destinazione) => {
+                this.elencoDestinazioni.push(element);
+            });
+        })
+        .then(data => console.log(data))
+        .catch(error => {
+            console.error("Errore nel fetch:", error);
+        });
+    
+        return this.elencoDestinazioni;
     }
 
-    FetchAll(){
-
-      // http.get<Config>(this.endpoint).subscribe(config => {
-      //   // process the configuration.
-      // });
-    }
-
-    // FetchGetAll(): Promise<Destinazione[]> {
-    //     return fetch(this.endpoint)
-    //       .then(response => {
-    //         if (!response.ok) {
-    //           throw new Error('Errore: la response non era ok');
-    //         }
-    //         return response.json();
-    //       })
-    //       .then(destinazioni => {
-    //         // da fixare
-    //         console.log(destinazioni);
-    //         this.elenco = destinazioni; 
-    //         return this.elenco;
-    //       })
-    //       .catch(error => {
-    //         console.error('Errore Fetch:', error);
-    //         throw error;
-    //       });
-    //   }
 }

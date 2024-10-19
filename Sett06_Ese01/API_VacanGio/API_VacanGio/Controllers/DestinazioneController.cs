@@ -21,5 +21,18 @@ namespace API_VacanGio.Controllers
         {
             return Ok(_service.CercaTutti());
         }
+
+
+        //se c'è un errore nella insert potrebbe essere qui
+        [HttpPost]
+        [Route("inserisci")]
+        public IActionResult Inserisci(DestinazioneDTO destDTO)
+        {
+            if (string.IsNullOrWhiteSpace(destDTO.Nom) || string.IsNullOrWhiteSpace(destDTO.Pae))
+                return BadRequest();
+            if (_service.Inserisci(destDTO))
+                return Ok();
+            return BadRequest(destDTO);
+        }
     }
 }

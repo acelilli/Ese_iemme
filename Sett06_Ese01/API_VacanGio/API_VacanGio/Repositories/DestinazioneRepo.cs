@@ -13,12 +13,33 @@ namespace API_VacanGio.Repositories
         }
         public bool Create(Destinazione entity)
         {
-            throw new NotImplementedException();
+            bool risultato = false;
+            try
+            {
+                _context.Destinazioni.Add(entity);
+                _context.SaveChanges();
+                risultato = true;
+            }
+            catch (Exception ex) 
+            { 
+                Console.WriteLine(ex.Message);
+            }
+            return risultato;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            bool risultato = false;
+
+            try 
+            {
+                Destinazione dest = _context.Destinazioni.Single(d => d.DestinazioneID == id);
+                _context.Destinazioni.Remove(dest);
+                _context.SaveChanges();
+            }
+            catch (Exception ex) { }
+
+                return risultato;
         }
 
         public IEnumerable<Destinazione> GetAll()
@@ -28,12 +49,29 @@ namespace API_VacanGio.Repositories
 
         public Destinazione? GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Destinazioni.Find(id);
+        }
+
+        public Destinazione? GetByCodice(string cod)
+        {
+            return _context.Destinazioni.FirstOrDefault(c => c.CodiceDes == cod);
         }
 
         public bool Update(Destinazione entity)
         {
-            throw new NotImplementedException();
+            bool risultato = false;
+            try
+            {
+                _context.Destinazioni.Update(entity);
+                _context.SaveChanges(); 
+                risultato = true;
+            }
+            catch (Exception ex) 
+            { 
+                Console.WriteLine(ex.Message);
+            }
+
+            return risultato;
         }
     }
 }

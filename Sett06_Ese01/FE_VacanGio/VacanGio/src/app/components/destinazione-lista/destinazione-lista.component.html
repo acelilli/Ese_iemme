@@ -1,6 +1,7 @@
 <table class="table table-striped">
     <thead>
         <tr>
+            <th>Codice</th>
             <th>Nome</th>
             <th>Descrizione</th>
             <th>Paese</th>
@@ -10,9 +11,10 @@
     <tbody>
         <tr *ngFor="let dest of elencoDestinazioni">
             <td>{{ dest.codDes }}</td>
-            <td>{{ dest.descrizione }}</td>
-            <td>{{ dest.paese }}</td>
-            <td><img src="{{ dest.img }}"></td>
+            <td>{{ dest.nom }}</td>
+            <td>{{ dest.desc }}</td>
+            <td>{{ dest.pae }}</td>
+            <td><img src="{{ dest.imU }}"></td>
             <td>
                 <button type="button" class="btn btn-danger">X</button>
                 <a class="btn btn-warning">M</a>

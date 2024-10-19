@@ -12,7 +12,19 @@ namespace API_VacanGio
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            #region Implementazione CORS
 
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins, policy =>
+                {
+                    policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                });
+            });
+
+            #endregion
             // Add services to the container.
 
             builder.Services.AddControllers();
@@ -28,8 +40,6 @@ namespace API_VacanGio
             /* --- SERVICES --- */
             builder.Services.AddScoped<DestinazioneServices>();
 
-            /* --- CONTROLLERS (non vanno) -- */
-            //builder.Services.AddScoped<DestinazioneController>();
             #endregion
 
             var app = builder.Build();
@@ -41,7 +51,13 @@ namespace API_VacanGio
                 app.UseSwaggerUI();
             }
 
+            app.UseHttpsRedirection();
+
+            app.UseCors(MyAllowSpecificOrigins);
+
             app.UseAuthorization();
+
+
 
 
             app.MapControllers();

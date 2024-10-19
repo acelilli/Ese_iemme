@@ -3,7 +3,7 @@ USE task_VacanGio;
 
 CREATE TABLE Destinazione(
 	destinazioneID INT PRIMARY KEY IDENTITY(1,1),
-	codiceDes VARCHAR(25) NOT NULL,
+	codiceDes VARCHAR(50) NOT NULL,
 	nome VARCHAR(250) NOT NULL,
 	descrizione TEXT,
 	paese VARCHAR(250) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE Destinazione(
 
  CREATE TABLE Pacchetto_Vacanza(
 	pacchettoID INT PRIMARY KEY IDENTITY(1,1),
-	codicePac VARCHAR(25) NOT NULL,
+	codicePac VARCHAR(50) NOT NULL,
 	nome VARCHAR(250) NOT NULL,
 	prezzo DECIMAL(8,2) NOT NULL CHECK (prezzo > 0),
 	durata INT DEFAULT 0,
@@ -31,7 +31,7 @@ CREATE TABLE Destinazione(
 
 CREATE TABLE Recensione(
 	recensioneID INT PRIMARY KEY IDENTITY(1,1),
-	codiceRec VARCHAR(25) NOT NULL, 
+	codiceRec VARCHAR(50) NOT NULL, 
 	nomeUtente VARCHAR(250) NOT NULL,
 	voto INT CHECK(voto BETWEEN 1 AND 5),
 	commento TEXT,
@@ -61,7 +61,7 @@ VALUES
 
 INSERT INTO Pacchetto_Vacanza (codicePac, nome, prezzo, durata, dataInizio, dataFine)
 VALUES 
-('PAC001', 'Weekend Europeo', 350.50, 3, '2024-05-01', '2024-05-04'),
+('PAC001', 'Weekend Europeo', 350.50, 7, '2024-05-01', '2024-05-07'),
 ('PAC002', 'Settimana della moda', 1200.99, 7, '2024-06-10', '2024-06-17'),
 ('PAC003', 'Tokyo moderno e antico', 2000.00, 10, '2024-07-20', '2024-07-30'),
 ('PAC004', 'Tour di New York', 1500.75, 5, '2024-08-05', '2024-08-10'),
