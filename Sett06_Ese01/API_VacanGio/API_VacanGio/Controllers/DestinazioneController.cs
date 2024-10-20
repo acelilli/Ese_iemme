@@ -63,5 +63,17 @@ namespace API_VacanGio.Controllers
 
             return BadRequest();
         }
-     }
+
+        [HttpDelete("{varCodice}")]
+        public IActionResult EliminaDestinazione(string varCodice)
+        {
+            if (string.IsNullOrWhiteSpace(varCodice))
+                return BadRequest();
+
+            if (_service.Elimina(varCodice))
+                return Ok();
+
+            return BadRequest();
+        }
+    }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_VacanGio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd1cc4c0536831e1b9ec729a4f20f1adafa26f2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8c8c63d12f92d1b164fada63f64fc5b1efe4fb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_VacanGio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_VacanGio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

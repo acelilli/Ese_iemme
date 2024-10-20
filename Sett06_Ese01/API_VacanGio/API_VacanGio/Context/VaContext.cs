@@ -13,7 +13,6 @@ namespace API_VacanGio.Context
 
         public DbSet<Destinazione> Destinazioni { get; set; }
         public DbSet<Pacchetto> Pacchetti { get; set; }
-
         public DbSet<DestinazionePacchetto> DestPacchettos { get; set; }
 
         public DbSet<Recensione> Recensioni { get; set; }

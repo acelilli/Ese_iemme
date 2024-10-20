@@ -68,6 +68,22 @@
   },
   {
     "ContainingType": "API_VacanGio.Controllers.DestinazioneController",
+    "Method": "EliminaDestinazione",
+    "RelativePath": "api/destinazioni/{varCodice}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_VacanGio.Controllers.DestinazioneController",
     "Method": "Inserisci",
     "RelativePath": "api/destinazioni/inserisci",
     "HttpMethod": "POST",
