@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett06_ese01\\api_vacangio\\api_vacangio\\repositories\\destinazionerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|solutionrelative:api_vacangio\\repositories\\destinazionerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett06_ese01\\api_vacangio\\api_vacangio\\repositories\\destpacchettorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|solutionrelative:api_vacangio\\repositories\\destpacchettorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett06_ese01\\api_vacangio\\api_vacangio\\services\\destinazioneservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|solutionrelative:api_vacangio\\services\\destinazioneservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett06_ese01\\api_vacangio\\api_vacangio\\models\\destinazionepacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|solutionrelative:api_vacangio\\models\\destinazionepacchetto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett06_ese01\\api_vacangio\\api_vacangio\\controllers\\destinazionecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|solutionrelative:api_vacangio\\controllers\\destinazionecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett06_ese01\\api_vacangio\\api_vacangio\\repositories\\pacchettorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|solutionrelative:api_vacangio\\repositories\\pacchettorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett06_ese01\\api_vacangio\\api_vacangio\\services\\pacchettoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5089B0B6-21E4-4947-896A-E6D9751A7755}|API_VacanGio\\API_VacanGio.csproj|solutionrelative:api_vacangio\\services\\pacchettoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DestinazioneServices.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Services\\DestinazioneServices.cs",
-              "RelativeDocumentMoniker": "API_VacanGio\\Services\\DestinazioneServices.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Services\\DestinazioneServices.cs",
-              "RelativeToolTip": "API_VacanGio\\Services\\DestinazioneServices.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Title": "DestinazionePacchetto.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Models\\DestinazionePacchetto.cs",
+              "RelativeDocumentMoniker": "API_VacanGio\\Models\\DestinazionePacchetto.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Models\\DestinazionePacchetto.cs",
+              "RelativeToolTip": "API_VacanGio\\Models\\DestinazionePacchetto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:38:55.486Z"
+              "WhenOpened": "2024-10-20T10:06:34.485Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DestinazioneRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Repositories\\DestinazioneRepo.cs",
-              "RelativeDocumentMoniker": "API_VacanGio\\Repositories\\DestinazioneRepo.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Repositories\\DestinazioneRepo.cs",
-              "RelativeToolTip": "API_VacanGio\\Repositories\\DestinazioneRepo.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwB8AAAAjAAAAAAAAAA==",
+              "Title": "DestPacchettoRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Repositories\\DestPacchettoRepo.cs",
+              "RelativeDocumentMoniker": "API_VacanGio\\Repositories\\DestPacchettoRepo.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Repositories\\DestPacchettoRepo.cs",
+              "RelativeToolTip": "API_VacanGio\\Repositories\\DestPacchettoRepo.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAowFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T19:54:15.885Z",
+              "WhenOpened": "2024-10-20T09:25:43.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DestinazioneController.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Controllers\\DestinazioneController.cs",
-              "RelativeDocumentMoniker": "API_VacanGio\\Controllers\\DestinazioneController.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Controllers\\DestinazioneController.cs",
-              "RelativeToolTip": "API_VacanGio\\Controllers\\DestinazioneController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAiwEIAAAAjAAAAAAAAAA==",
+              "Title": "PacchettoRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Repositories\\PacchettoRepo.cs",
+              "RelativeDocumentMoniker": "API_VacanGio\\Repositories\\PacchettoRepo.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Repositories\\PacchettoRepo.cs",
+              "RelativeToolTip": "API_VacanGio\\Repositories\\PacchettoRepo.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T20:34:06.562Z"
+              "WhenOpened": "2024-10-20T08:36:45.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacchettoService.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Services\\PacchettoService.cs",
+              "RelativeDocumentMoniker": "API_VacanGio\\Services\\PacchettoService.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett06_Ese01\\API_VacanGio\\API_VacanGio\\Services\\PacchettoService.cs",
+              "RelativeToolTip": "API_VacanGio\\Services\\PacchettoService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T08:37:31.121Z"
             }
           ]
         }
