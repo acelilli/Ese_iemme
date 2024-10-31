@@ -17,11 +17,13 @@
             <Label>Codice Fiscale:</Label>
             <TextBox Name="txt_cf" Margin="12"/>-->
 
-            <Button x:Name="btn_mostra" Margin="15" FontSize="16" Background="CornflowerBlue" Click="btn_mostra_Click">Anteprima Persona</Button>
-            <Button x:Name="btn_scrivi_persona" Margin="15" FontSize="16" Background="CornflowerBlue" Click="btn_scrivi_persona_Click">Scrivi Dati di Persona</Button>
+            <Button x:Name="btn_mostra" Margin="15,15,15,5" FontSize="16" Background="CornflowerBlue" Click="btn_mostra_Click">Anteprima Persona</Button>
+            <Button x:Name="btn_scrivi_persona" Margin="15,5" FontSize="16" Background="CornflowerBlue" Click="btn_scrivi_persona_Click">Scrivi Dati di Persona</Button>
 
-            <Button x:Name="btn_mostra_CF" Margin="15" FontSize="16" Background="CornflowerBlue" Click="btn_mostra_CF_Click">Anteprima CF</Button>
-            <Button x:Name="btn_scrivi_cf" Margin="15" FontSize="16" Background="CornflowerBlue" Click="btn_scrivi_cf_Click">Scrivi Dati di CF</Button>
+            <Button x:Name="btn_mostra_CF" Margin="15,5" FontSize="16" Background="CornflowerBlue" Click="btn_mostra_CF_Click">Anteprima CF</Button>
+            <Button x:Name="btn_scrivi_cf" Margin="15,5" FontSize="16" Background="CornflowerBlue" Click="btn_scrivi_cf_Click">Scrivi Dati di CF</Button>
+
+            <Button x:Name="btn_to_mongoDb" Margin="15,30" FontSize="16" Background="CornflowerBlue" Click="btn_to_mongoDb_Click">MongoDb</Button>
         </StackPanel>
         <Grid Width="297">
             <!--Tabella di persona-->

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|c:\\users\\utente\\desktop\\ese_iemme\\task_batch\\task_batch\\models\\codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|solutionrelative:task_batch\\models\\codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|c:\\users\\utente\\desktop\\ese_iemme\\task_batch\\task_batch\\sql_batch.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|solutionrelative:task_batch\\sql_batch.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|c:\\users\\utente\\desktop\\ese_iemme\\task_batch\\task_batch\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +15,12 @@
       "RelativeMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|solutionrelative:task_batch\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|c:\\users\\utente\\desktop\\ese_iemme\\task_batch\\task_batch\\models\\taskbatchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|solutionrelative:task_batch\\models\\taskbatchcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|c:\\users\\utente\\desktop\\ese_iemme\\task_batch\\task_batch\\models\\codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|solutionrelative:task_batch\\models\\codicefiscale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|c:\\users\\utente\\desktop\\ese_iemme\\task_batch\\task_batch\\repo\\irepolettura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|solutionrelative:task_batch\\repo\\irepolettura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|c:\\users\\utente\\desktop\\ese_iemme\\task_batch\\task_batch\\repo\\personarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|solutionrelative:task_batch\\repo\\personarepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|c:\\users\\utente\\desktop\\ese_iemme\\task_batch\\task_batch\\repo\\codfisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|solutionrelative:task_batch\\repo\\codfisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|c:\\users\\utente\\desktop\\ese_iemme\\task_batch\\task_batch\\sql_batch.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0FEBE742-EABB-45E6-BD01-1FD66C8BC49B}|Task_Batch\\Task_Batch.csproj|solutionrelative:task_batch\\sql_batch.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,59 +30,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CodFisRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Repo\\CodFisRepo.cs",
-              "RelativeDocumentMoniker": "Task_Batch\\Repo\\CodFisRepo.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Repo\\CodFisRepo.cs",
-              "RelativeToolTip": "Task_Batch\\Repo\\CodFisRepo.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:58:24.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PersonaRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Repo\\PersonaRepo.cs",
-              "RelativeDocumentMoniker": "Task_Batch\\Repo\\PersonaRepo.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Repo\\PersonaRepo.cs",
-              "RelativeToolTip": "Task_Batch\\Repo\\PersonaRepo.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T15:29:31.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepoLettura.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Repo\\IRepoLettura.cs",
-              "RelativeDocumentMoniker": "Task_Batch\\Repo\\IRepoLettura.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Repo\\IRepoLettura.cs",
-              "RelativeToolTip": "Task_Batch\\Repo\\IRepoLettura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:59:16.678Z",
+              "DocumentIndex": 0,
+              "Title": "sql_batch.sql ",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\sql_batch.sql",
+              "RelativeDocumentMoniker": "Task_Batch\\sql_batch.sql",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\sql_batch.sql",
+              "RelativeToolTip": "Task_Batch\\sql_batch.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-31T13:37:35.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TaskBatchContext.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Models\\TaskBatchContext.cs",
-              "RelativeDocumentMoniker": "Task_Batch\\Models\\TaskBatchContext.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Models\\TaskBatchContext.cs",
-              "RelativeToolTip": "Task_Batch\\Models\\TaskBatchContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Title": "CodiceFiscale.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Models\\CodiceFiscale.cs",
+              "RelativeDocumentMoniker": "Task_Batch\\Models\\CodiceFiscale.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Models\\CodiceFiscale.cs",
+              "RelativeToolTip": "Task_Batch\\Models\\CodiceFiscale.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:51:04.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T13:25:07.572Z"
             },
             {
               "$type": "Document",
@@ -101,8 +65,7 @@
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\MainWindow.xaml",
               "RelativeToolTip": "Task_Batch\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-30T14:40:25.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T14:40:25.347Z"
             },
             {
               "$type": "Document",
@@ -112,22 +75,9 @@
               "RelativeDocumentMoniker": "Task_Batch\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\MainWindow.xaml.cs",
               "RelativeToolTip": "Task_Batch\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAYwGkAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAAMIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T14:40:22.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CodiceFiscale.cs",
-              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Models\\CodiceFiscale.cs",
-              "RelativeDocumentMoniker": "Task_Batch\\Models\\CodiceFiscale.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Task_Batch\\Task_Batch\\Models\\CodiceFiscale.cs",
-              "RelativeToolTip": "Task_Batch\\Models\\CodiceFiscale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T10:11:40.978Z",
               "EditorCaption": ""
             }
           ]

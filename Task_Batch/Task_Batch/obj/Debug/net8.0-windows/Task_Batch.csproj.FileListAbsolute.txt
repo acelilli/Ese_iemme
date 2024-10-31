@@ -1,3 +1,8 @@
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\Task_Batch.csproj.AssemblyReference.cache
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\Task_Batch_MarkupCompile.cache
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\Task_Batch_MarkupCompile.lref
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Task_Batch.exe
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Task_Batch.deps.json
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Task_Batch.runtimeconfig.json
@@ -5,6 +10,7 @@ C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Task_Batch.pdb
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Azure.Core.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\DnsClient.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Humanizer.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
@@ -40,7 +46,13 @@ C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\MongoDB.Bson.dll
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\MongoDB.Driver.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\SharpCompress.dll
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\Snappier.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\System.Composition.Convention.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
@@ -50,6 +62,7 @@ C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\System.Memory.Data.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\ZstdSharp.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
@@ -115,11 +128,6 @@ C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\Task_Batch.csproj.AssemblyReference.cache
-C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\Task_Batch_MarkupCompile.cache
-C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\Task_Batch_MarkupCompile.lref
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\Task_Batch.g.resources
 C:\Users\Utente\Desktop\Ese_iemme\Task_Batch\Task_Batch\obj\Debug\net8.0-windows\Task_Batch.GeneratedMSBuildEditorConfig.editorconfig
