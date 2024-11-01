@@ -30,7 +30,7 @@ namespace Task_Finale.Controllers
 
             if (_service.VerificaEmailPassword(utDTO))
             {
-                HttpContext.Session.SetString("userLogged", utDTO.TipoUt);
+                HttpContext.Session.SetString("userLogged", utDTO.Mail);
                 return Redirect("/Home");
             }
 

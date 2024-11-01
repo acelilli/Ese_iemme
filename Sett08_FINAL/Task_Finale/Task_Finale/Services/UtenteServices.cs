@@ -65,6 +65,30 @@ namespace Task_Finale.Services
             return mioUtente;
         }
 
+        public UtenteDTO? CercaPerMailPassword(string email, string pass)
+        {
+            UtenteDTO? mioUtente = null;
+
+            Utente? utente = _repo.GetByEmailPassword(email, pass);
+            if (mioUtente is not null)
+            {
+                mioUtente = new UtenteDTO()
+                {
+                    CodUt = utente.CodiceUtente,
+                    UsNa = utente.Username,
+                    Pass = utente.Password,
+                    Mail = utente.Email,
+                    TipoUt = utente.TipoUtente,
+                };
+            }
+            else
+            {
+                _logger.LogError("Utente non trovato");
+            }
+
+            return mioUtente;
+        }
+
         public IEnumerable<UtenteDTO> CercaTutti()
         {
             ICollection<UtenteDTO> risultato = new List<UtenteDTO>();

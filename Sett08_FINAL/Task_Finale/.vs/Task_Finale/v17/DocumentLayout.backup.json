@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\repos\\utenterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\repos\\utenterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\services\\utenteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\services\\utenteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\repos\\utenterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\repos\\utenterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "Task_Finale\\Views\\Auth\\Login.cshtml",
@@ -46,70 +46,69 @@
               "RelativeToolTip": "Task_Finale\\Views\\Auth\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T17:03:01.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T17:03:01.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UtenteRepo.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Repos\\UtenteRepo.cs",
               "RelativeDocumentMoniker": "Task_Finale\\Repos\\UtenteRepo.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Repos\\UtenteRepo.cs",
               "RelativeToolTip": "Task_Finale\\Repos\\UtenteRepo.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowFIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T16:58:13.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "UtenteServices.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Services\\UtenteServices.cs",
               "RelativeDocumentMoniker": "Task_Finale\\Services\\UtenteServices.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Services\\UtenteServices.cs",
               "RelativeToolTip": "Task_Finale\\Services\\UtenteServices.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAYwH0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwEMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T16:55:30.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Task_Finale\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Task_Finale\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAjwCIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T16:50:42.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Program.cs",
               "RelativeDocumentMoniker": "Task_Finale\\Program.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Program.cs",
               "RelativeToolTip": "Task_Finale\\Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAYwEYAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T16:15:24.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\appsettings.json",
               "RelativeDocumentMoniker": "Task_Finale\\appsettings.json",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\appsettings.json",
               "RelativeToolTip": "Task_Finale\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-31T14:40:54.805Z",
               "EditorCaption": ""
