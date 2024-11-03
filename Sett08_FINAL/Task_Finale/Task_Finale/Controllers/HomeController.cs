@@ -1,9 +1,13 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Task_Finale.Models;
+using Task_Finale.Filters;
 
 namespace Task_Finale.Controllers
 {
+    //[Authorize] // accesso solo ad utenti autorizzati
+    
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -13,6 +17,7 @@ namespace Task_Finale.Controllers
             _logger = logger;
         }
 
+        //[AutorizzaPerTipo("Admin")] // errore nell'implementazione, TO DO
         public IActionResult Index()
         {
             return View();

@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Task_Finale.Filters;
 using Task_Finale.Models;
 using Task_Finale.Repos;
 using Task_Finale.Services;
@@ -21,6 +22,8 @@ namespace Task_Finale
 
             builder.Services.AddScoped<UtenteRepo>();
             builder.Services.AddScoped<UtenteServices>();
+            builder.Services.AddScoped<AutorizzaPerTipo>();
+
 
 
             builder.Services.AddAuthentication().AddJwtBearer(options =>
@@ -31,7 +34,7 @@ namespace Task_Finale
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = "Popolo",
+                    ValidIssuer = "*",
                     ValidAudience = "Popolo", 
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("key_super_segretissima_con_tantissimissimi_caratteri"))
                 };
@@ -40,6 +43,25 @@ namespace Task_Finale
             builder.Services.AddSession(options =>
             {
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
+            });
+
+
+            builder.Services.AddSession(options =>
+            {
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Invia cookie solo su HTTPS
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+            });
+
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.WithOrigins("https://localhost:7206")
+                           .AllowAnyMethod()
+                           .AllowAnyHeader()
+                           .AllowCredentials();
+                });
             });
 
             #endregion
@@ -59,8 +81,9 @@ namespace Task_Finale
             app.UseRouting();
 
             app.UseCors(builder => builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader());
-
             
+
+
 
             app.UseAuthentication();
 

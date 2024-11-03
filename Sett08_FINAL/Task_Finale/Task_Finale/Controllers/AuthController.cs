@@ -60,7 +60,7 @@ namespace Task_Finale.Controllers
 
                 // creazione del token:
                 var token = new JwtSecurityToken(
-                    issuer: "Popolo",
+                    issuer: "*",
                     audience: "Popolo",
                     claims: claimList,
                     expires: DateTime.Now.AddHours(1),
@@ -69,9 +69,9 @@ namespace Task_Finale.Controllers
 
                 //Ritorno risposta ok in cui trasformiamo il Token in una stringa JWT (codificato)
                 // ?
-                string tkn = new JwtSecurityTokenHandler().WriteToken(token);
-                //return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
-                return Redirect("/Home/Index");
+                //string tkn = new JwtSecurityTokenHandler().WriteToken(token);
+                return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
+                //return Redirect("/Home/Index");
             }
 
             // TO DO: Creazione cartella dei filtri con la classe apposita
@@ -81,7 +81,8 @@ namespace Task_Finale.Controllers
 
         public IActionResult Logout()
         {
-            HttpContext.Session.Clear();
+            //HttpContext.Session.Clear();
+            HttpContext.Session.Remove("userType");
             return Redirect("/Auth/Login");
 
         }

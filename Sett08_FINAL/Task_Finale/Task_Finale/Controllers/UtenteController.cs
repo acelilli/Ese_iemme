@@ -16,13 +16,14 @@ namespace Task_Finale.Controllers
 
         #endregion
 
-        public IActionResult ListaUtenti() 
+        public IActionResult Lista() 
         {
             string? utenteLoggato = HttpContext.Session.GetString("userLogged");
 
             if (utenteLoggato is not null && utenteLoggato == "Admin")
             {
                 ViewBag.userSelected = "Admin";
+                //To do: Popolamento della lista
                 return View();
             }
 

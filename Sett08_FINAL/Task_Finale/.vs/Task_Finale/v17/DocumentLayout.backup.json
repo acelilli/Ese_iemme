@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\filters\\autorizzapertipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\filters\\autorizzapertipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\controllers\\utentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|solutionrelative:task_finale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD998D79-AF9C-46F1-9F1E-0E35CAEE87C9}|Task_Finale\\Task_Finale.csproj|c:\\users\\utente\\desktop\\ese_iemme\\sett08_final\\task_finale\\task_finale\\task_finale.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -42,24 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "AutorizzaPerTipo.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Filters\\AutorizzaPerTipo.cs",
+              "RelativeDocumentMoniker": "Task_Finale\\Filters\\AutorizzaPerTipo.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Filters\\AutorizzaPerTipo.cs",
+              "RelativeToolTip": "Task_Finale\\Filters\\AutorizzaPerTipo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T18:10:35.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_Finale\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_Finale\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:56:41.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UtenteRepo.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Repos\\UtenteRepo.cs",
               "RelativeDocumentMoniker": "Task_Finale\\Repos\\UtenteRepo.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Repos\\UtenteRepo.cs",
               "RelativeToolTip": "Task_Finale\\Repos\\UtenteRepo.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAWwFIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAjwFIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T17:33:23.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Task_Finale\\Views\\Home\\Index.cshtml",
@@ -67,61 +101,64 @@
               "RelativeToolTip": "Task_Finale\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T16:51:29.955Z"
+              "WhenOpened": "2024-11-03T16:51:29.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UtenteServices.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Services\\UtenteServices.cs",
               "RelativeDocumentMoniker": "Task_Finale\\Services\\UtenteServices.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Services\\UtenteServices.cs",
               "RelativeToolTip": "Task_Finale\\Services\\UtenteServices.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAewJwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAjwFoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T16:16:45.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UtenteController.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Controllers\\UtenteController.cs",
               "RelativeDocumentMoniker": "Task_Finale\\Controllers\\UtenteController.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Controllers\\UtenteController.cs",
               "RelativeToolTip": "Task_Finale\\Controllers\\UtenteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T16:03:06.823Z"
+              "WhenOpened": "2024-11-03T16:03:06.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Task_Finale\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "Task_Finale\\Controllers\\AuthController.cs*",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAjwFIAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Task_Finale\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwEcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T16:50:42.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Program.cs",
               "RelativeDocumentMoniker": "Task_Finale\\Program.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Program.cs",
               "RelativeToolTip": "Task_Finale\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAIwDoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAjwD4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T16:15:24.576Z"
+              "WhenOpened": "2024-11-01T16:15:24.576Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Task_Finale.csproj",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\Task_Finale.csproj",
               "RelativeDocumentMoniker": "Task_Finale\\Task_Finale.csproj",
@@ -129,12 +166,11 @@
               "RelativeToolTip": "Task_Finale\\Task_Finale.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-03T16:56:18.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T16:56:18.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\Ese_iemme\\Sett08_FINAL\\Task_Finale\\Task_Finale\\appsettings.json",
               "RelativeDocumentMoniker": "Task_Finale\\appsettings.json",
