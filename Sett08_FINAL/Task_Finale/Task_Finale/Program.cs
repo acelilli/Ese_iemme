@@ -15,6 +15,7 @@ namespace Task_Finale
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
             #region Context + Scoped + Authentication + Session Timeout
             builder.Services.AddDbContext<Task_FinaleContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DatabaseSQL")));
 
@@ -54,18 +55,23 @@ namespace Task_Finale
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            
             app.UseRouting();
 
+            app.UseCors(builder => builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader());
+
+            
+
+            app.UseAuthentication();
+
             app.UseAuthorization();
+
+            
 
             //usa sessione
             app.UseSession();
 
-            // TO DO: Aggiungere la rotta principale al login
-         //app.MapControllerRoute(
-         //name: "default",
-         //       pattern: "{controller=Auth}/{action=Login}/{id?}");
+            // Aggiunta rotta principale al login
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Auth}/{action=Login}/{id?}");

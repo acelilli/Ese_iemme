@@ -67,10 +67,11 @@ namespace Task_Finale.Services
 
         public UtenteDTO? CercaPerMailPassword(string email, string pass)
         {
-            UtenteDTO? mioUtente = null;
+            UtenteDTO? mioUtente = null!;
 
             Utente? utente = _repo.GetByEmailPassword(email, pass);
-            if (mioUtente is not null)
+
+            if (utente is not null)
             {
                 mioUtente = new UtenteDTO()
                 {
